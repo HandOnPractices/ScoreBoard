@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient( 35deg, #b3d40c, #e56464);
+    width: 80%;
+    margin: 1% auto 0 auto;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 2% auto 0 auto;
+    background: linear-gradient( 35deg, #e56464, #b3d40c);
+    border-radius: 10px;
+    column-count: 2;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    top: 68px;
+
+}
+.scores{
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: black;
+    margin: 2px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.p{
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgb(145, 182, 42);
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 2% auto;
+    
+}
+#header{
+    text-align: center;
+}
+
+.btn{
+    background-color: #b3d40c;
+    color: white;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+    font-size: 5%px;
+    cursor: pointer;
+}
+.winnerp{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    text-align: center;
+}
+#reset-btn{
+    background-color: #e56464;
+    color: white;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
