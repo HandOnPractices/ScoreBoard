@@ -17,6 +17,7 @@ body{
     width: 80%;
     margin: 1% auto 0 auto;
     border-radius: 10px;
+    max-height:100%;
 }
 .container{
     display: flex;
@@ -97,4 +98,49 @@ h1{
     padding: 4px;
     font-size: 1rem;
     cursor: pointer;
+}
+.buttons-faul{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fauls{
+    margin: 2px auto 2px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    background: linear-gradient(45deg, green, yellow);
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+.faul-div{
+    width: 20%;
+}
+.faul-btn{
+    background-color: #b3d40c;
+    border-radius: 10px;
+    border: 1px dotted wheat;
+}
+.faul-btn:hover{
+    color: #1b1e10;
+    background-color: #5d6b16;
+}
+.faultext{
+    padding: auto;
+    margin: 2px auto 2px auto;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+}
+.faul{
+    color: aqua;
+    font-size: large;
+    font-weight: bolder;
+    background-color: #1b1e10;
+    width: auto;
+    border-radius: 100%;
+   
 }
